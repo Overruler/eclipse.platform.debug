@@ -8,6 +8,7 @@
      http://www.eclipse.org/legal/epl-v10.html
     
      Contributors:
+         Timo Kinnunen - [preferences] Allow to configure annotation presentation layer (Bug 80089)
          IBM Corporation - initial API and implementation
          Patrick Chuong (Texas Instruments) - Improve usability of the breakpoint view (Bug 238956)
          Patrick Chuong (Texas Instruments) - Move debug toolbar actions to main window (Bug 332784) 
@@ -2229,7 +2230,7 @@ M4 = Platform-specific fourth key
             annotationType="org.eclipse.debug.core.breakpoint"
             colorPreferenceKey="breakpointIndicationColor"
             overviewRulerPreferenceValue="false"
-            presentationLayer="3"
+            presentationLayer="7"
             label="%BreakpointMarkerPreference.label"
             textPreferenceValue="false"
             textPreferenceKey="breakpointIndication"
